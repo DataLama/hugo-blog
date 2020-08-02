@@ -2,7 +2,7 @@
 title: "이것은 주제목"
 subtitle: "이것은 부제목"
 date: 2020-08-02T08:47:46Z
-draft: true
+draft: false
 description: "나는 디스크립션"
 
 tags: ["nlp", "bert"]
