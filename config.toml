@@ -1,4 +1,4 @@
-baseURL = "https://datalama.github.io/"
+baseURL = "https://datalama.kr"
 # [en, zh-cn, fr, ...] determines default content language
 defaultContentLanguage = "kr"
 
@@ -321,7 +321,7 @@ enableEmoji = true
       Skype = false
       Trello = false
       Mix = false
-    #  Comment config
+    #  Comment config -> 이거 달자.
     [params.page.comment]
       enable = true
       # Disqus comment config
@@ -330,12 +330,12 @@ enableEmoji = true
         enable = false
         # Disqus shortname to use Disqus in posts
         shortname = ""
-      # Gitalk comment config @comment는 이걸 사용함.@
+      # Gitalk comment config
       [params.page.comment.gitalk]
         # 
-        enable = true
+        enable = false
         owner = "DataLama"
-        repo = "https://github.com/DataLama/datalama.github.io.git"
+        repo = "datalama.github.io"
         clientId = "1e733409c16f8d589bfd"
         clientSecret = "057daac019d46874f13aebee4d8d8fc5d557610a"
       # Valine comment config
